@@ -69,7 +69,7 @@ nav h1{
     margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn {
     background-color: darkblue;
 }
 
@@ -112,7 +112,7 @@ nav h1{
     margin: 0;
 }
 
-.navbar a:hover, .dropdown2:hover .drop2btn {
+.dropdown2:hover .drop2btn {
     background-color: darkblue;
 }
 

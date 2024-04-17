@@ -22,8 +22,12 @@ footer {
 }
 footer .text {
     color: white;
-    margin-left: 300px;
     margin-top: 10px;
+    margin-left: 300px;
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    justify-content: space-between;
 }
 footer .images {
     margin-right: 400px;
@@ -190,4 +194,12 @@ div img {
 .responsive {
     width: 100%;
     height: auto;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    text-underline: white;
 }
